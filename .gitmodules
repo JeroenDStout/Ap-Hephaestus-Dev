@@ -1,0 +1,9 @@
+[submodule "Code/BlackRoot"]
+	path = Code/BlackRoot
+	url = https://github.com/JeroenDStout/Lab5-BlackRoot.git
+[submodule "Code/ToolboxBase"]
+	path = Code/ToolboxBase
+	url = https://github.com/JeroenDStout/Lab5-Toolbox-Base.git
+[submodule "Code/HephaestusBase"]
+	path = Code/HephaestusBase
+	url = https://github.com/JeroenDStout/Lab5-HephaestusBase.git
