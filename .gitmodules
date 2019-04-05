@@ -7,3 +7,6 @@
 [submodule "Code/HephaestusBase"]
 	path = Code/HephaestusBase
 	url = https://github.com/JeroenDStout/Lab5-HephaestusBase.git
+[submodule "Pipe/PipelineBase"]
+	path = Pipe/PipelineBase
+	url = https://github.com/JeroenDStout/Lab5-Pipe-Base.git
