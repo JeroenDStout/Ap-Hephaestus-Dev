@@ -7,7 +7,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../;../../;../../../../../External/Json/single_include/;../../../../../External/Asio/include/;../../../../../External/websocketpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../;../../;../../../../../../External/Json/single_include/;../../../../../../External/Asio/Asio/include/;../../../../../../External/websocketpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />
