@@ -1,2 +1,28 @@
 {
+  "vars" : [
+    { "dev-dir" : "{cur-dir}/.dev2" },
+    { "tmp-dir" : "{cur-dir}/.hep" },
+    { "port-hephaestus" : "3001" }
+  ],
+  "hubs" : [
+    { "path" : "PipelineBase/DevFolder/hub.hep.json",
+      "vars" : [
+        { "dev-dir" : "{dev-dir}/test" },
+        { "test1"   : "test value" },
+        { "test1"   : "{test1}, merging" } ]
+    }
+  ],
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/tryme.txt",
+          "out" : "{dev-dir}/welldone.txt" },
+        { "in"  : "{cur-dir}/tryme2.txt",
+          "out" : "{dev-dir}/welldone2.txt"   }
+      ],
+      "settings" : {
+        "test" : "{port-hephaestus}"
+      }
+    }
+  ]
 }
