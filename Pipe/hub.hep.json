@@ -1,6 +1,6 @@
 {
   "vars" : [
-    { "dev-dir" : "{cur-dir}/.dev2" },
+    { "dev-dir" : "{cur-dir}/.dev" },
     { "tmp-dir" : "{cur-dir}/.hep" },
     { "port-hephaestus" : "3001" }
   ],
