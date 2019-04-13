@@ -1,7 +1,7 @@
 {
   "vars" : [
-    { "dev-dir" : "{cur-dir}/.dev" },
-    { "tmp-dir" : "{cur-dir}/.hep" },
+    { "dev-dir" : "{cur-dir}/-dev" },
+    { "tmp-dir" : "{cur-dir}/-hep-tmp" },
     { "port-hephaestus" : "3001" }
   ],
   "hubs" : [

@@ -3,8 +3,8 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir>$(ProjectDir)\..\.bin\$(Platform)\$(Configuration)\</OutDir>
-    <IntDir>$(ProjectDir)\..\.intm\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(ProjectDir)\..\-bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)\..\-intm\$(Platform)\$(Configuration)\</IntDir>
     <_PropertySheetDisplayName>Shared Common Properties</_PropertySheetDisplayName>
   </PropertyGroup>
   <ItemDefinitionGroup>

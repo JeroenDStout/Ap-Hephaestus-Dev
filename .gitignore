@@ -333,5 +333,5 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
-# Any folder starting with .
-.*/
+# Any folder starting with a dash
+-*/
