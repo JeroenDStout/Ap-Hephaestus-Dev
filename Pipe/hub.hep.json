@@ -13,7 +13,7 @@
     }
   ],
   "pipes" : [
-    { "tool" : "smartcopy",
+    { "tool" : "dummy",
       "paths" : [
         { "in"  : "{cur-dir}/tryme.txt",
           "out" : "{dev-dir}/welldone.txt" },
@@ -21,7 +21,7 @@
           "out" : "{dev-dir}/welldone2.txt"   }
       ],
       "settings" : {
-        "test" : "{port-hephaestus}"
+        "special" : "do it, you coward"
       }
     }
   ]
