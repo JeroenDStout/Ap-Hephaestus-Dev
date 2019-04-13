@@ -333,6 +333,5 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
-# Repo version used by Stout Games
-repo_version.h
-repo_version.py
+# Any folder starting with .
+.*/
