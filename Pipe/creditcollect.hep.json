@@ -1,0 +1,20 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{base-dir}/Code/BlackRoot/Meta/contributors.json",
+          "out" : "{tmp-dir}/credits/BlackRoot_Contributors.json" },
+        { "in"  : "{base-dir}/Code/ToolboxBase/Meta/contributors.json",
+          "out" : "{tmp-dir}/credits/ToolboxBase_Contributors.json" },
+        { "in"  : "{base-dir}/Code/HephaestusBase/Meta/contributors.json",
+          "out" : "{tmp-dir}/credits/HepheastusBase_Contributors.json" },
+        { "in"  : "{base-dir}/Code/BlackRoot/Meta/libraries.json",
+          "out" : "{tmp-dir}/credits/BlackRoot_Libraries.json" },
+        { "in"  : "{base-dir}/Code/ToolboxBase/Meta/libraries.json",
+          "out" : "{tmp-dir}/credits/ToolboxBase_Libraries.json" },
+        { "in"  : "{base-dir}/Code/HephaestusBase/Meta/libraries.json",
+          "out" : "{tmp-dir}/credits/HepheastusBase_Libraries.json" }
+      ]
+    }
+  ]
+}

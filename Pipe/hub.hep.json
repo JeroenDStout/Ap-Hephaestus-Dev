@@ -6,9 +6,9 @@
     { "port-hephaestus" : "3001" }
   ],
   "hubs" : [
-    { "path" : "PipelineBase/DevFolder/hub.hep.json",
-      "vars" : [
-      ]
+    { "path" : "PipelineBase/DevFolder/hub.hep.json"
+    },
+    { "path" : "creditcollect.hep.json"
     }
   ]
 }
