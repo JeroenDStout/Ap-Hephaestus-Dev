@@ -9,6 +9,9 @@
     <ClCompile>
       <AdditionalIncludeDirectories>../;../../;../../../../../../External/Json/single_include/;../../../../../../External/Asio/Asio/include/;../../../../../../External/websocketpp/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../BlackRoot/-bin/$(Platform)/$(Configuration)/;$(SolutionDir)/../ToolboxBase/-bin/$(Platform)/$(Configuration)/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
