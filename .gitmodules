@@ -1,12 +1,12 @@
 [submodule "Code/BlackRoot"]
 	path = Code/BlackRoot
-	url = https://github.com/JeroenDStout/Lab5-BlackRoot.git
+	url = https://github.com/JeroenDStout/L5-Code-BlackRoot.git
 [submodule "Code/ToolboxBase"]
 	path = Code/ToolboxBase
-	url = https://github.com/JeroenDStout/Lab5-Toolbox-Base.git
+	url = https://github.com/JeroenDStout/L5-Code-ToolboxBase.git
 [submodule "Code/HephaestusBase"]
 	path = Code/HephaestusBase
-	url = https://github.com/JeroenDStout/Lab5-HephaestusBase.git
+	url = https://github.com/JeroenDStout/L5-Code-HephaestusBase.git
 [submodule "Pipe/PipelineBase"]
 	path = Pipe/PipelineBase
-	url = https://github.com/JeroenDStout/Lab5-Pipe-Base.git
+	url = https://github.com/JeroenDStout/L5-Pipe-PipelineBase.git
