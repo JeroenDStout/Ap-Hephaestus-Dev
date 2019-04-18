@@ -14,3 +14,7 @@
 	path = Pipe/PipelineBase
 	url = https://github.com/JeroenDStout/Ap-Pipe-PipelineBase.git
     branch = public-develop
+[submodule "Util/Repo"]
+	path = Util/Repo
+	url = https://github.com/JeroenDStout/Ap-Util-Repo.git
+	branch = public-develop
