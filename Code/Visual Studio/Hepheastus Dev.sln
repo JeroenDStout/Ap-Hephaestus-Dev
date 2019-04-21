@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hephaestus Base", "..\Hepha
 		{5644BBF8-3CB0-4067-BEE8-C4BA3C2C04F6} = {5644BBF8-3CB0-4067-BEE8-C4BA3C2C04F6}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conduits", "..\Conduits\Visual Studio\Conduits.vcxproj", "{73FB3815-84FC-41B3-9290-BC5490E22148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -48,6 +50,14 @@ Global
 		{926E1D65-2E57-444C-B6B1-B58985DB9772}.Release|x64.Build.0 = Release|x64
 		{926E1D65-2E57-444C-B6B1-B58985DB9772}.Release|x86.ActiveCfg = Release|Win32
 		{926E1D65-2E57-444C-B6B1-B58985DB9772}.Release|x86.Build.0 = Release|Win32
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Debug|x64.ActiveCfg = Debug|x64
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Debug|x64.Build.0 = Debug|x64
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Debug|x86.ActiveCfg = Debug|Win32
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Debug|x86.Build.0 = Debug|Win32
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Release|x64.ActiveCfg = Release|x64
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Release|x64.Build.0 = Release|x64
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Release|x86.ActiveCfg = Release|Win32
+		{73FB3815-84FC-41B3-9290-BC5490E22148}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
