@@ -3,11 +3,25 @@
     { "base-dir" : "{cur-dir}/../" },
     { "dev-dir" : "{cur-dir}/-dev" },
     { "tmp-dir" : "{cur-dir}/-hep-tmp" },
-    { "port-hephaestus" : "3001" }
+    { "port-iris" : "3001" },
+    { "port-hephaestus" : "3002" }
   ],
+  "groups" : [{
+    "title" : " --------------- HephaestusBase ------------------ ",
+    "vars" : [
+      { "file-dir" : "{base-dir}/res/hephaestus/" },
+      { "tmp-web-dir" : "{tmp-dir}/web-hephaestus/" },
+      { "vsproj-dir" : "{base-dir}/Code/HephaestusBase/Visual Studio/" },
+      { "code-bin-dir" : "{base-dir}/Code/HephaestusBase/-bin" },
+      { "web-dir" : "{dev-dir}/web" },
+      { "spec-web-dir" : "{web-dir}/hep/" }
+    ],
+    "hubs" : [
+      { "path" : "PipelineBase/Misc/update-favicon.hep.json" },
+      { "path" : "PipelineBase/DevFolder/prepare-exe.hep.json" }
+    ]
+  }],
   "hubs" : [
-    { "path" : "PipelineBase/DevFolder/hub.hep.json"
-    },
     { "path" : "PipelineBase/Credits/collectcredits.hep.json",
       "vars" : [
         { "tmp-credits-dir" : "{tmp-dir}/credits" }
